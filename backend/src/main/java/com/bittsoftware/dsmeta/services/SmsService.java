@@ -44,6 +44,6 @@ public class SmsService {
 
 		Message message = Message.creator(to, from, msg).create();
 
-		System.out.println(message.getSid() + " from " + from.toString() + " to " + to.toString());
+		System.out.println(message.getSid());
 	}
 }
